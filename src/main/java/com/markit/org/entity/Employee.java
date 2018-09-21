@@ -16,6 +16,9 @@ public class Employee {
 	@Column(name="EMPLOYEE_NAME")
 	private String employeeName;
 	
+	@Column(name="EMAIL")
+	private String email;
+	
 	@Column(name="VEHICLE_REGISTRATION_NUMBER")
 	private String vehicleRegistrationNumber;
 	
